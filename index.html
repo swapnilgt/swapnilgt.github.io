@@ -9,23 +9,7 @@
     <!--<link rel="stylesheet" href="style.css" />-->
     <title>jQuery Example</title>
     <script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '1578593855613154',
-      xfbml      : true,
-      version    : 'v2.4'
-    });
-  };
-
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "//connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-
-    // This is called with the results from from FB.getLoginStatus().
+   // This is called with the results from from FB.getLoginStatus().
   function statusChangeCallback(response) {
     console.log('statusChangeCallback');
     console.log(response);
@@ -103,7 +87,6 @@
         'Thanks for logging in, ' + response.name + '!';
     });
   }
-
 </script>
   
   <div

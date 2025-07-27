@@ -1,30 +1,16 @@
 ---
 layout: page
-title: About
+title: About Me
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+<p class="message" style="text-align: center">
+  <strong><i>To be able to lead with mindfullness and feeling of oneness is the greatest gift for a leader</i></strong>
 </p>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+I am an engineering leader with a passion for building and nurturing high-performing engineering teams.
 
-There are currently two themes built on Poole:
+Currently, I am an Engineering Manager at PayZapp ([Android](https://play.google.com/store/apps/details?id=com.hdfcbank.payzapp&hl=en-US)/[iOS](https://apps.apple.com/in/app/payzapp-upi-pixel-credit-card/id6443480917)). I have a team of 10 mobile engineers, both on Android and iOS. My team has improved the payment funnel performance by ~70% in the last year and shipped complex products like autopayment and UPI Circles.
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+In the past, I have worked on building and shipping Android SDKs focusing on OTP-less second factor authentication and PCI DSS compliant cards solution for our customers and successfully shipped these to 15+ customers with the likes of PostPe, Fampay, Mobikwik and OneCard.
 
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+Previously, I was the founding engineer with a music education startup where I built and scaled the Android application, helping people learn music.

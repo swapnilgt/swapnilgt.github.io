@@ -99,6 +99,62 @@ a.sidebar-nav-item:focus {
   font-weight: bold;
 }
 
+/* Sidebar social links */
+.sidebar-social {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.sidebar-social-title {
+  color: rgba(255,255,255,.7);
+  font-size: 0.85rem;
+  margin-bottom: 0.75rem;
+  text-align: center;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: rgba(255,255,255,0.1);
+  color: rgba(255,255,255,0.7);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+.social-link:hover {
+  transform: translateY(-2px);
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.social-link:nth-child(1):hover { background-color: #0077b5; border-color: #0077b5; } /* LinkedIn */
+.social-link:nth-child(2):hover { background-color: #1da1f2; border-color: #1da1f2; } /* Twitter */
+.social-link:nth-child(3):hover { background-color: #f48024; border-color: #f48024; } /* Stack Overflow */
+.social-link:nth-child(4):hover { background-color: #333; border-color: #333; } /* GitHub */
+
+@media (max-width: 48em) {
+  .sidebar-social-title {
+    text-align: center;
+  }
+  
+  .social-links {
+    justify-content: center;
+  }
+}
+
 /* Sticky sidebar
  *
  * Add the `sidebar-sticky` class to the sidebar's container to affix it the

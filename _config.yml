@@ -10,7 +10,7 @@ relative_permalinks: false
 title:            Swapnil Gupta
 tagline:          'Discovering myself'
 description:      'My journey into self-discovery'
-baseurl:          /
+baseurl:          ""
 
 author:
   name:           'Swapnil Gupta'
